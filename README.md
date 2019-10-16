@@ -1,4 +1,4 @@
-README: Stake_Support_Portal 
+Stake_Support_Portal 
 
 PRD URLs:
   AU: au.support.hellostake.com

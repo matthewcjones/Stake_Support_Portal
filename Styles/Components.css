@@ -1,7 +1,20 @@
+@font-face {
+    font-family: athletics
+    src url(https://stake-cdn.s3-ap-southeast-2.amazonaws.com/fonts/Athletics-Regular.woff)
+}
+
 .page {
+    
 	min-height: initial;
 }
 
+.content {
+
+}
+
+.main {
+    border: 0px;
+}
 
 .banner-custom {
     background-color: #fff;
@@ -32,7 +45,7 @@
 }
 
 .search-area {
-    background: url('https://hellostake.com/wp-content/uploads/2019/08/FAQheader.png') no-repeat 100% 100%;
+<!--    background: url('https://hellostake.com/wp-content/uploads/2019/08/FAQheader.png') no-repeat 100% 100%;
     background-size: 100% 100%;
     height: 400px;
     text-align: center;
@@ -44,8 +57,18 @@
     font-size: 16px;
     line-height: 24px;
     color: #34608b;
-    margin-top: 20px;
+    margin-top: 20px;    
 }
+
+.a {
+    text-decoration: none !important;
+
+}
+
+.breadcrumb {
+    background-color: #fff;
+}
+
 .info-area {
     padding: 0 50px;
 }
@@ -77,6 +100,15 @@
     font-size: 40px;
     font-weight: bold;
 }
+
+.icon-article-table-row {
+    width: 0px !important;
+}
+
+.ficon-solution-article-new:before {
+    content: none;
+}
+
 ul.list-question {
     list-style: none;
     text-align: left;
@@ -190,7 +222,12 @@ body {
     letter-spacing: 0.1px;
     color: #000000;
 
-}
+ }
+ 
+ .pagination {
+     color: #000000;
+
+ }
 
 .footer-custom {
     padding-top: 118px;
@@ -210,7 +247,7 @@ body {
     color: #666666;
 }
 .hc-search-form {
-	width: 50%;
+	width: 100%;
     margin: 0 auto;
 }
 .list-unstyled {
@@ -289,4 +326,10 @@ body {
     -ms-transition: transform 0.45s cubic-bezier(.3,.4,.2,1),background-color 0.15s ease;
     transition: transform 0.45s cubic-bezier(.3,.4,.2,1),background-color 0.15s ease;
     -webkit-transition: -webkit-transform 0.45s cubic-bezier(.3,.4,.2,1),background-color 0.15s ease;
+}
+
+.sidebar {
+    background-color: #fff;
+    box-shadow: none !important;
+
 }

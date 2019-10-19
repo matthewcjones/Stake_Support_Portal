@@ -53,10 +53,30 @@
     padding-top: 77px;
 }
 
+.hc-search-input {
+    border: none;
+    background-color: #fff;
+    box-shadow: none;
+    max-width: 50%;
+    width: 50%;
+
+}
+
+.hc-search-form {
+    margin-left: 25% !important;
+    width: 100% !important;
+
+    
+}
+
+.hc-search-button {
+    display: none;
+}
+
 .s-desc {
     font-size: 16px;
     line-height: 24px;
-    color: #34608b;
+    color: #FFF;
     margin-top: 20px;    
 }
 
@@ -147,7 +167,7 @@ ul.list-question {
 .s-title {
     font-size: 56px;
     font-weight: 500;
-    margin-bottom: 19px;
+    margin-bottom: 28px;
 }
 
 .s-desc-2 {
